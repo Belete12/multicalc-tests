@@ -8,11 +8,11 @@ function Calculator() {
   const addOne = useMemo(() => {
     return operand + 1;
   }, [operand]);
-
+  //updated
   const cubed = useMemo(() => {
     return operand ** 3;
   }, [operand]);
-
+  //updated
   const multiplyByThree = useMemo(() => {
     return operand * 3;
   }, [operand]);
