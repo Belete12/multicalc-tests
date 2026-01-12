@@ -8,13 +8,13 @@ function Calculator() {
   const addOne = useMemo(() => {
     return operand + 1;
   }, [operand]);
-
+  //updated
   const cubed = useMemo(() => {
-    return operand ** 2;
+    return operand ** 3;
   }, [operand]);
-
+  //updated
   const multiplyByThree = useMemo(() => {
-    operand * 3;
+    return operand * 3;
   }, [operand]);
 
   const squareRoot = useMemo(() => {
